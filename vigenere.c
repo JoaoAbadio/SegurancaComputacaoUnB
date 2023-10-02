@@ -3,7 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 
-#define SIZE 1000
 #define ASCII 65
 
 // Prints the main menu and wait for an input.
