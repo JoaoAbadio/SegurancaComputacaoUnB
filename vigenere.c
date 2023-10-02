@@ -250,7 +250,7 @@ char* find_key(FILE* fp) {
 
         printf("\n*****Character %d*****\n", i);
 
-        if (language == 1) {
+        if (language == '1') {
             printf("\n\nPortuguese: ");
             for (int j = 0; j < 26; j++) {
                 printf("|%d [%c]: %f| ", j, letters[j], portuguese_probabilities[j]);
